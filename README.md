@@ -4,4 +4,9 @@ a demo to project that uses python and NASA data to find meteorites that have la
 #running
 This project requires Python 3 and the request package.
 
-`python3 find_meteorites.py`
+First install pipenv, then:
+
+```
+pipenv install
+pipenv run "python find_meteorites.py"
+```
